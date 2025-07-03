@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Crud</string>
+    <string name="tarea">TAREAS</string>
+    <string name="agregartarea">Agregar tarea</string>
+    <string name="actualizarTarea">Actualizar tarea</string>
+
+</resources>
