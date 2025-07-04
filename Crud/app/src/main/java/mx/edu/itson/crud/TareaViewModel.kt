@@ -1,4 +1,4 @@
-package mx.itson.crud
+package mx.edu.itson.crud
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -20,7 +20,6 @@ class TareaViewModel : ViewModel() {
     init {
         obtenerTareas()
     }
-
     fun obtenerTareas() {
 
         viewModelScope.launch(Dispatchers.IO) {
@@ -44,7 +43,6 @@ class TareaViewModel : ViewModel() {
             } catch (e: Exception) {
                 e.printStackTrace()
             }
-
         }
     }
 
@@ -56,8 +54,6 @@ class TareaViewModel : ViewModel() {
             } catch (e: Exception) {
                 e.printStackTrace()
             }
-
-
         }
     }
 
@@ -71,6 +67,4 @@ class TareaViewModel : ViewModel() {
             }
         }
     }
-
-
 }

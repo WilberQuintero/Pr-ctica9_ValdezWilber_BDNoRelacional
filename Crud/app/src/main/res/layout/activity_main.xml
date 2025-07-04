@@ -24,11 +24,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Titulo"/>
+
     <EditText
         android:id="@+id/etDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Descripcion"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

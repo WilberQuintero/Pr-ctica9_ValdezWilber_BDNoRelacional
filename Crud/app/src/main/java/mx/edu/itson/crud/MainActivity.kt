@@ -1,4 +1,4 @@
-package mx.itson.crud
+package mx.edu.itson.crud
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

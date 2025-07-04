@@ -1,4 +1,4 @@
-package mx.itson.crud
+package mx.edu.itson.crud
 
 data class Tarea(var Id: String = "", var titulo: String = "", var descripcion: String = "") {
 
